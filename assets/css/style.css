@@ -1,4 +1,4 @@
-/* GENERAL */
+/* GENERAL STYLE */
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px
@@ -52,6 +52,9 @@ body.active {
     }
 }
 
+
+
+
 /*HEADER */
 header {
     position: absolute;
@@ -68,7 +71,7 @@ header {
 
 header ul {
     display: inline-block;
-    background: #fff;
+    background: #d7b474;
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -82,19 +85,19 @@ header li {
 
 header a {
     display: block;
-    color: #3498db;
+    color: #fff;
     padding: 10px
 }
 
 header a:hover {
-    color: #217dbb;
+    color: #fff;
     text-decoration: none;
-    background: #eee;
+    background: #374054;
     border-radius: 4px
 }
 
 header a:focus {
-    color: #3498db;
+    color: #d7b474;
     text-decoration: none
 }
 
@@ -117,7 +120,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #3498db;
+    color: #d7b474;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -134,7 +137,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #3498db
+    color: #d7b474;
 }
 
 #mobile-menu-close span {
@@ -200,7 +203,7 @@ footer {
 }
 
 .social a:hover {
-    color: #3498db
+    color: #d7b474;
 }
 
 .btn-rounded-white {
@@ -213,13 +216,13 @@ footer {
 }
 
 .btn-rounded-white:hover {
-    color: #3498db;
+    color: #d7b474;
     background: #fff;
     text-decoration: none
 }
 
 .shadow {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.014)
 }
 
 .shadow-large {
@@ -246,10 +249,12 @@ footer {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
 }
 
+/*Sfondo*/
 .background-alt {
-    background: #f2f2f5
+    background: #161616;
 }
 
+/*Hero Section*/
 #lead {
     position: relative;
     height: 100vh;
@@ -298,7 +303,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+    background: linear-gradient(rgba(9, 38, 81, 0.145), rgba(0, 0, 0, 0.414));
     z-index: 1
 }
 
@@ -365,7 +370,7 @@ footer {
 }
 
 #experience h2 {
-    color: #374054
+    color: #fff
 }
 
 #experience-timeline {
@@ -383,7 +388,7 @@ footer {
     right: auto;
     height: 100%;
     width: 3px;
-    background: #3498db;
+    background: #d7b474;
     z-index: 0
 }
 
@@ -392,8 +397,8 @@ footer {
     content: '';
     width: 3px;
     height: 40px;
-    background: #3498db;
-    background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+    background: #d7b474;
+    background: linear-gradient(to bottom, #d7b474, rgba(52, 152, 219, 0));
     top: 100%;
     left: 303px
 }
@@ -440,7 +445,7 @@ footer {
     color: #fff;
     width: 50px;
     height: 50px;
-    background: #3498db;
+    background: #d7b474;
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -460,7 +465,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054
+    color: #fff;
 }
 
 
@@ -521,7 +526,7 @@ footer {
 }
 
 #projects h2 {
-    color: #374054;
+    color: #fff;
     margin-bottom: 50px
 }
 
@@ -612,7 +617,7 @@ footer {
 /* CONTACT */
 #contact {
     padding: 50px 15px;
-    background: #d7b474;
+    background: #191919;
     text-align: center
 }
 
@@ -634,7 +639,7 @@ footer {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #1d6fa5;
+    background: #d7b474;
     color: #fff;
     transition: .5s ease all
 }
@@ -659,7 +664,7 @@ footer {
 
 #contact-form input:focus, #contact-form textarea:focus {
     outline: none;
-    background: #16527a
+    background: #d7b474;
 }
 
 #contact-form textarea {
@@ -674,7 +679,7 @@ footer {
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
-    color: #3498db;
+    color: #d7b474;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: .5s ease all
