@@ -1,5 +1,4 @@
 # andreapetrozzi.github.io
-Portfolio 
+My GitHub-Portfolio 
 
-WORK IN PROGRESS
 
